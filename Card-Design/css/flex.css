@@ -1,0 +1,403 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: hsl(0, 0%, 95%);
+  margin-bottom: 90px;
+  margin-left: auto;
+}
+
+
+/* A) Recreate a 3-column card design using CSS Flexbox Layout 
+.container{
+  margin: 3% 0px 0px 15%;
+  background-color: hsl(0, 0%, 95%);
+  width: 140vh;
+  height: 90vh;
+  border-radius: 15px;
+}*/
+
+.recreate{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  padding-left: 33%;
+  padding-top: 20px;
+  color: rgb(0, 0, 0);
+}
+.on-grid{
+  height: 30px;
+  width: 130px;
+  font-size: 16px;
+  font-family:'Lexend Deca', sans-serif;
+  border: 0px;
+  background-color: #4485cf;
+  color:#fff;
+  border-radius: 10px;
+  margin-left: 10px;
+  transition: hover 2.3s;
+}
+.on-grid:hover{
+  background-color: #bbc8d6;
+}
+.on-grid:active{
+  background-color: #0a7af1;
+  opacity: 3;
+  color: black;
+}
+.on-link{
+  text-decoration: none;
+  color: #fff;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 0px;
+}
+
+/* combination of the three layout: SEDANS, SUVS, LUXURY */
+
+.sedan-img, .sedan-head, .sen-p, .sed-btn,
+.suv-img, .suv-head, .suv-p, .suv-btn,
+.luxury-img, .lux-head, .lux-p, .lux-btn{
+  margin-left: 40px;
+}
+/* combination of the img icon: SEDANS, SUVS, LUXURY */
+.sedan-img, .suv-img, .luxury-img{
+  margin-top: 50px;
+}
+/* combination of the h2: SEDANS, SUVS, LUXURY */
+
+.sedan-head, .suv-head, .lux-head{
+  font-family: 'Big Shoulders Display', cursive;
+  color: hsl(0, 0%, 95%);
+  font-size: 40px;
+  margin-top: 40px;
+  width: 700px;
+}
+
+/* combination of the paragraph: SEDANS, SUVS, LUXURY */
+.sen-p, .suv-p, .lux-p{
+  width: 200px;
+  margin-top: 30px;
+  line-height: 25px;
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+/* combination of the button: SEDANS, SUVS, LUXURY */
+.sen-link{
+  text-decoration: none;
+  color: hsl(0, 0%, 95%);
+}
+.sed-btn{
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 16px;
+  margin-top: 60px;
+  height: 50px;
+  width: 150px;
+  border-radius: 25px;
+  background-color:hsl(31, 77%, 52%);
+  border: 1px solid  hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+  cursor: pointer;
+}
+.sed-btn:hover{
+  background-color: hsl(31, 81%, 33%);
+  color:hsl(0, 0%, 95%);
+}
+.suv-link{
+  text-decoration: none;
+  color:  hsl(0, 0%, 95%);
+}
+.suv-btn{
+  font-family: 'Lexend Deca', sans-serif;;
+  font-size: 16px;
+  margin-top: 60px;
+  height: 50px;
+  width: 150px;
+  border-radius: 25px;
+  background-color:hsl(184, 100%, 22%);
+  border: 1px solid  hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+  cursor: pointer;
+}
+.suv-btn:hover{
+  background-color:hsl(183, 74%, 14%);
+  color:hsl(0, 0%, 95%);
+}
+.lux-link{
+  text-decoration: none;
+  color: hsl(0, 0%, 95%);
+}
+.lux-btn{
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 16px;
+  margin-top: 60px;
+  height: 50px;
+  width: 150px;
+  border-radius: 25px;
+  background-color:hsl(179, 100%, 13%);
+  border: 1px solid  hsl(0, 0%, 95%);
+  color:  hsl(0, 0%, 95%);
+  cursor: pointer;
+}
+.lux-btn:hover{
+  background-color:hsl(178, 71%, 7%);
+  color: hsl(0, 0%, 95%);
+}
+
+/* combination of the background items 1,2,3 */
+.item-1{
+  width: 290px;
+  height:500px;
+  background-color:hsl(31, 77%, 52%);
+  color: #d9ebee;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.item-2{
+  width: 290px;
+  height:500px;
+  background-color: hsl(184, 100%, 22%);
+  color: #d9ebee;
+}
+.item-3{
+  width: 290px;
+  height:500px;
+  background-color: hsl(179, 100%, 13%);
+  color: #d9ebee;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+                        
+
+                   /* media quary */
+                   
+/* for screen of 1440 */ 
+
+@media screen and (max-width:1440px) {
+
+  /*.flex-container{
+    font-family: 'Big Shoulders Display', cursive;
+    height: 250px;
+    width: 150px;
+    margin:auto;
+  }*/
+  .flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  /* items 1,2,3 */
+  .item-1, .item-2, .item-3{
+    width: 330px;
+    height:520px;
+  }
+  /* combination */
+  .sedan-img, .sedan-head, .sen-p, .sed-btn,
+.suv-img, .suv-head, .suv-p, .suv-btn,
+.luxury-img, .lux-head, .lux-p, .lux-btn{
+  margin-left: 35px;
+}
+   /* the head */
+   .sedan-head, .suv-head, .lux-head{
+  font-family: 'Big Shoulders Display', cursive;
+  color: hsl(0, 0%, 95%);
+  font-size: 50px;
+  margin-top: 20px;
+  width: 700px;
+}
+
+  /* the images */
+.sedan-img, .suv-img, .luxury-img{
+  margin-top: 40px;
+  height: 45px;
+}
+ 
+    /* the pragrahp */
+  .sen-p, .suv-p, .lux-p{
+    font-family: 'Lexend Deca', sans-serif;
+    width: 190px;
+    margin-top: 30px;
+    line-height: 20px;
+    font-size: 16px;
+  }
+       /* the btn */
+
+  .lux-btn, .suv-btn, .sed-btn{
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 16px;
+  margin-top: 80px;
+  height: 50px;
+  width: 150px;
+  border-radius: 25px;
+  } 
+
+    /* the top letter */
+  .recreate{
+    font-size: 20px;
+    padding:20px 0 0 20%;
+    color: rgb(0, 0, 0);
+  }
+}
+
+                                         /* screen for 850 */
+@media screen and (max-width:850px) {
+
+  /*.flex-container{
+    font-family: 'Big Shoulders Display', cursive;
+    height: 250px;
+    width: 150px;
+    margin:auto;
+  }*/
+body{
+  margin: auto;
+}
+  /* combination */
+  .sedan-img, .sedan-head, .sen-p, .sed-btn,
+.suv-img, .suv-head, .suv-p, .suv-btn,
+.luxury-img, .lux-head, .lux-p, .lux-btn{
+  margin-left: 25px;
+}
+ /* the three flex contaanner */
+
+ .flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin:15px ;
+}
+
+ 
+/* items 1,2,3 */
+.item-1, .item-2, .item-3{
+  width: 250px;
+  height:520px;
+}
+
+/* the sub- heading */
+.recreate{
+  font-size: 18px;
+  padding:20px 0 0 10%;
+  color: rgb(0, 0, 0);
+}
+
+     /* the cars */
+     .sedan-img, .suv-img, .luxury-img{
+      margin-top: 40px;
+    }
+
+   /* the head  */
+   .sedan-head, .suv-head, .lux-head{
+  font-family: 'Big Shoulders Display', cursive;
+  color: hsl(0, 0%, 95%);
+  font-size: 40px;
+  margin-top: 20px;
+  width: 700px;
+}
+  /* the pragraph */
+  .sen-p, .suv-p, .lux-p{
+    font-family: 'Lexend Deca', sans-serif;
+    width: 120px;
+    margin-top: 30px;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  /* the btn */
+  .suv-btn, .sed-btn, .lux-btn{
+    font-family: 'Lexend Deca', sans-serif;
+  font-size: 14px;
+  margin-top: 60px;
+  height: 40px;
+  width: 120px;
+  border-radius: 25px;
+  }
+  
+}
+                                                       /* screen for 375 */
+@media screen and (max-width: 375px) {
+  body{
+    margin: auto;
+  }
+  .flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0px;
+  }
+
+  .sedan-img, .sedan-head, .sen-p, .sed-btn,
+  .suv-img, .suv-head, .suv-p, .suv-btn,
+  .luxury-img, .lux-head, .lux-p, .lux-btn{
+    margin-left:0px;
+  }
+  /* the haed */
+  .sedan-head, .suv-head, .lux-head{
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    font-size: 30px;
+    margin: 20px 0 0 20px;
+    width: 300px;
+  }
+  .sedan-img, .suv-img, .luxury-img{
+    height: 40px;
+    margin: 35px 0 0 20px;
+  }
+  .item-1, .item-2, .item-3{
+    width: 300px;
+    height:490px;
+    border-radius: 0px;
+  }
+
+  /* paragraph */
+  .sen-p, .suv-p, .lux-p{
+    font-family: 'Lexend Deca', sans-serif;
+    width: 180px;
+    margin: 30px 0 0 20px;
+    line-height: 20px;
+    font-size: 18px;
+  }
+   /* the sub- heading */
+  .recreate{
+    font-size: 10px;
+    padding:20px 0 0 10%;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+  }
+   /* the btn */
+  .suv-btn, .sed-btn, .lux-btn{
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 1p8x;
+  margin: 50px 0 0 20px;
+  height: 40px;
+  width: 100px;
+  border-radius: 25px;
+  }
+
+  .on-grid{
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    font-family:'Lexend Deca', sans-serif;
+    border: 0px;
+    background-color: #4485cf;
+    color:#fff;
+    border-radius: 10px;
+    margin-left: 10px;
+    transition: hover 2.3s;
+    margin-top: 20px;
+  }
+  .on-grid:hover{
+    background-color: #bbc8d6;
+  }
+  .on-grid:active{
+    background-color: #0a7af1;
+    opacity: 3;
+    color: black;
+  }
+}
+
