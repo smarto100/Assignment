@@ -1,0 +1,170 @@
+
+.my-back-car{
+  position: relative;
+  margin: 0px 0px 0px 440px;
+}
+.back-car{
+  position: absolute;
+  height: 100px;
+  width: 120px;
+  background-color: #2a373d;
+  margin-left: -50px;
+  margin-top: -100px;
+  border-top-right-radius: 100px ;
+}
+/*
+.back-car-one{
+  position: absolute;
+  height: 80px;
+  width:100px;
+  background-color:  rgb(103, 97, 97);
+  top: -16px;
+  left: -50px;
+  border-top-left-radius: 100px ;
+  border-top-right-radius: 100px ;
+  border-bottom-right-radius:0px ;
+  border-bottom-left-radius: 0% ; 
+  transform: rotate(-53deg);
+} 
+*/
+
+.back-car-two{
+  position: absolute;
+  height: 80px;
+  width: 120px;
+  background-color:#e3e7ea;
+  margin-left: -25px;
+  margin-top: -70px;
+  border-top-left-radius: 100% ;
+  transform: rotate(-10deg);
+  z-index: -1;
+  box-shadow: inset 15px 0px 3px rgba(184, 181, 181, 0.8);
+}
+
+.body-inner-two{
+  position: absolute;
+  height: 90px;
+  width: 10px;
+  border-width: 0px 0px 0px 2px;
+  border-color: black;
+  border-style: solid;
+  left: 037px;
+  top: -98px;
+}
+
+.back-car-boot-one{
+  position: absolute;
+  height: 105px;
+  width: 110px;
+  background-color: #2a373d;
+  border-top-left-radius: 75%;
+  border-top-right-radius: 5px;
+  left: -35px;
+  top: -40px;
+  transform: rotate(58deg);
+}
+.back-light-red{
+  position: absolute;
+  height: 40px;
+  width: 30px;
+  top: 15px;
+  left: -80px;
+  background-color: #f84e2d;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  }
+
+  .back-light-white{
+    position: absolute;
+    height: 18px;
+    width: 30px;
+    background-color: rgb(249, 249, 249);
+    top: 13px;
+  }
+
+.back-car-boot-two{
+  position: absolute;
+  height: 140px;
+  width: 135px;
+  background-color: #2a373d;
+  border-top-left-radius: 90%;
+  border-top-right-radius: 30%;
+  border-bottom-left-radius: 10px;
+  left: -80px;
+  top: -40px;
+  box-shadow: inset 10px 0px 3px rgba(127, 135, 138, 0.8);
+}
+
+.back-car-boot-two-black{
+  position: absolute;
+  height: 70px;
+  width: 125px;
+  background-color: #081013;
+  right: 20px;
+  top: 30px;
+  border-top-left-radius: 100px ;
+  border-top-right-radius: 100px ;
+}
+
+.back-car-boot-wheel-black{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #121d23;
+  left: -10px;
+  top: 43px;
+}
+
+.back-car-boot-wheel-white-one{
+ position: absolute;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: #fffffb;
+  left: 15px;
+  top: 15px;
+}
+
+.back-car-boot-wheel-white-two{
+  position: absolute;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  background-color: #121d23;
+  left: 2.2px;
+  top: 3px;
+}
+
+.back-car-boot-wheel-white-three{
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #fffffb;
+  left: 13px;
+  top: 12px;
+}
+
+.back-car-boot-wheel-white-four{
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color:#3c5361;
+  left: 10px;
+  top: 10px;
+}
+
+.back-board{
+  position: absolute;
+  height: 40px;
+  width: 85px;
+  background-color: #1c272b;
+  left: -95px;
+  top: 60px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 50px ;
+}
+

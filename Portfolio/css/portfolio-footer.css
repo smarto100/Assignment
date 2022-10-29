@@ -1,0 +1,94 @@
+/* footer section */
+
+.body-five{
+  background-color: #222a42;
+  height: 500px;
+  margin: 0px;
+}
+
+.footer-left, .footer-right{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.my-name{
+  margin: 100px 50px 3px 120px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  color: #78fadc;
+}
+
+.write-up{
+  margin: 20px 50px 3px 120px;
+  font-family: serif;
+  font-size: 15px;
+  width: 600px;
+  color: #d0dafa;
+}
+
+.footer-line{
+  display: block;
+  margin: 80px 50px 3px 120px;
+  width: 1050px;
+}
+
+.social{
+  position: relative;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  color: #78fadc;
+  padding-top: 30px;
+  padding-left: 190px;
+}
+.github-one{
+  position: absolute;
+  height: 30px;
+  left: 930px;
+}
+.twitter-one{
+  position: absolute;
+  height: 30px;
+  left: 980px;
+}
+.codepen-one{
+  position: absolute;
+  height: 30px;
+  left: 1025px;
+}
+.instagram-one{
+  position: absolute;
+  height: 30px;
+  left: 1070px;
+}
+
+.Ahmed-baba{
+  margin: 150px 0px 0px 500px;
+}
+
+.footer-end{
+  font-family: 'Courier New', Courier, monospace;
+  color: #a6bafa;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.footer-end:hover{
+  color: #64ffda;
+}
+.copy, .copyright{
+  display: inline-block;
+  vertical-align: middle;
+}
+.copyright{
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0px 0px 0px 0px;
+  color: #a6bafa;
+  font-size: 16px;
+}
+.copy{
+  font-family: 'Courier New', Courier, monospace;
+  color: #a6bafa;
+  font-size: 20px;
+  margin-left: 580px;
+}
