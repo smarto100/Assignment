@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="css/registration.css" />
+  </head>
+  <body>
+    <section>
+      <h2 class="reg-form">Registration-Form</h2>
+      <img
+        class="regisration-man"
+        src="img/regisration-man.png"
+        alt="regisration-man"
+      />
+      <h3 class="welcome">
+        Welcome to Damtech Training School please kindly fill the form properly
+      </h3>
+      <div class="image-bg">
+        <p class="acct">
+          Already have an account?<a class="log" href="login.html">
+            Login here</a
+          >
+        </p>
+        <form class="form" action="congrt.html">
+          <div class="left-side">
+            <label class="fname" for="fname">First Name</label>
+            <input
+              class="fname-txt"
+              type="text"
+              name="fname"
+              id="fname"
+              placeholder="Enter Your First Name"
+              required
+            />
+            <img class="user" src="img/user.png" alt="user" />
+          </div>
+          <div class="right-side">
+            <label class="lname" for="lname">Last Name</label>
+            <input
+              class="lname-txt"
+              type="text"
+              name="lname"
+              id="lname"
+              placeholder="Enter Your Last Name"
+              required
+            />
+            <img class="user-one" src="img/user.png" alt="user" />
+          </div>
+          <div class="left-side-one">
+            <label class="phone-num" for="num">Phone Number</label>
+            <input
+              class="phone-num-tel"
+              type="tel"
+              name="number"
+              id="num"
+              placeholder="+234-4568-7890"
+              pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"
+              required
+            />
+            <img
+              class="phone-icon"
+              src="img/free-phone-icon-14-thumb.png"
+              alt="phone-icon"
+            />
+          </div>
+          <div class="right-side-two">
+            <label class="email" for="email">Email</label>
+            <input
+              class="email-txt"
+              type="email"
+              name="email"
+              id="email"
+              placeholder=" Enter Your Email"
+              required
+            />
+            <img class="email-box" src="img/email-icon.png" alt="email-box" />
+          </div>
+          <div class="left-side-password">
+            <label class="password" for="password"> Password</label>
+            <input
+              class="pass-txt"
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Enter Your Password"
+              required
+            />
+            <img class="user-pass" src="img/password.png" alt="password" />
+          </div>
+          <div class="right-side-password">
+            <label class="con-pass" for="con-password">Confirm Password</label>
+            <input
+              class="con-pass-txt"
+              type="password"
+              name="password"
+              id="con-password"
+              placeholder="Enter Your Confirm Password"
+              required
+            />
+            <img class="user-con-pass" src="img/password.png" alt="password" />
+          </div>
+          <div class="left-side-three">
+            <label class="gender">Gender</label>
+            <select class="select" required>
+              <option>select</option>
+              <option>Male</option>
+              <option>Female</option>
+            </select>
+            <img class="gender-icon" src="img/gender.png" alt="gender-icon" />
+          </div>
+          <div class="right-side-four">
+            <label class="dob" for="date">Date of birth</label>
+            <input class="dob-txt" type="date" name="date" id="data" required />
+          </div>
+          <label class="color" for="color">What Is Your Favorite Color</label>
+          <input
+            class="color-txt"
+            type="color"
+            name="color"
+            id="color"
+            value="#6b8e8e"
+            required
+          />
+          <br />
+          <input
+            class="checkbox"
+            type="checkbox"
+            name="checkbox"
+            id="checkbox"
+          />
+          <label class="checkbox-txt" for="checkbox"
+            >i have read the
+            <a class="reg" href="Registration.html"
+              >Terms and Condition</a
+            ></label
+          >
+          <button class="submit" type="submit">
+            <a href="congrt.html">Register</a>
+          </button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

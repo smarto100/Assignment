@@ -1,0 +1,230 @@
+
+body{
+  background-color: #dfdddf;
+}
+
+.background{
+  position: relative;
+  margin: 120px 0px 0px 25%;
+  background-color: rgb(232, 244, 255);
+  background-image: url('../img/background-image.png');
+  height: 30em;
+  width: 35%;
+  border: 0px;
+  border-radius: 50px;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+}
+    .up{
+      color: #3b7060;
+      text-decoration: none;
+    }
+.sign-up{
+  position: absolute;
+  font-size: 18px;
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: bold;
+ color: #3b7060;
+ top: 10%;
+  left: 70%;
+  height: 30px;
+  width: 100px;
+  border: 0px;
+  border-radius: 10px;
+  background-color: #cdece3;
+ box-shadow: inset 3px 4px 5px rgba(158, 152, 152, 0.5);
+cursor: pointer;
+}
+
+.sign-up:hover{
+ background-color: #ddf3ec;
+ color: #076985;
+}
+.sign-up:active{
+ background-color: #b7e2e2;
+ color: #076985;
+}
+.man{
+  margin: -80px 0px 0px 35%;
+  height: 200px;
+}
+
+.login{
+  margin: -60px 0px 0px 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  color: #dfdddf;
+  text-shadow: 0 -1px #97ecc9, 0 -2px #9fcfae, 0 0 8px rgb(8, 37, 78);
+}
+
+.user, .user-txt{
+  display: block;
+  margin-left: 45px;
+  display: block;
+}
+
+.pass, .pass-txt{
+  margin-left: 45px;
+  display: block;
+}
+/* username */
+
+.user{
+  font-size: 20px;
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: bold;
+ color: #2a464e;
+ padding-bottom: 10px;
+ padding-top: 30px;
+}
+
+.user-txt{
+position: relative;
+height:35px;
+width: 300px;
+border: 0px;
+background-color: #a5dfcd;
+color: #000000;
+font-size: 15px;
+padding-left: 35px;
+border-radius: 10px;
+box-shadow: inset 1px 2px 4px rgba(110, 108, 108, 0.5);
+box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+}
+.user-txt:hover{
+  background-color: #cfe4dc;
+  }
+  .user-txt::placeholder{
+    color: #619c79;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    }
+    .img-user{
+      position: absolute;
+      height: 20px;
+      top: 204px;
+      left: 55px;
+      opacity: 0.4;
+      z-index: 10px;
+    }
+
+    /* password */
+
+.pass{
+  font-size: 20px;
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: bold;
+ color: #2a464e;
+ padding-bottom: 10px;
+ padding-top: 30px;
+ padding-left: 0px;
+}
+
+.pass-txt{
+position: relative;
+height:35px;
+width: 300px;
+border: 0px;
+background-color: #a5dfcd;
+color: hsl(0, 0%, 0%);
+font-size: 15px;
+padding-left: 35px;
+border-radius: 10px;
+box-shadow: inset 1px 2px 4px rgba(110, 108, 108, 0.5);
+box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+}
+.pass-txt:hover{
+  background-color: #cfe4dc;
+  }
+  .pass-txt::placeholder{
+    color: #619c79;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    padding: 0px;
+    }
+    .img-pass{
+      position: absolute;
+      height: 20px;
+      top: 304px;
+      left: 55px;
+      opacity: 0.4;
+      z-index: 10px;
+    }
+
+    /* checkbox aspect */
+
+    .rem{
+      margin: 20px 0px 0px 60px;
+    }
+    .rem-box{
+      font-size: 14px;
+      font-family: 'Courier New', Courier, monospace;
+      color: #06815c;
+    }
+    .for{
+      margin-left: 40px;
+    }
+    .for-pass{
+      font-size: 14px;
+      font-family: 'Courier New', Courier, monospace;
+      color: #06815c;
+    }
+
+    /* reset */
+    .reset, .submit{
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+   .reset{
+       font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+      color: #3b7060;
+       margin-left: 100px;
+       height: 40px;
+       width: 100px;
+       border: 0px;
+       border-radius: 10px;
+       background-color: #cdece3;
+      box-shadow: inset 3px 4px 5px rgba(158, 152, 152, 0.5);
+     cursor: pointer;
+    }
+    .reset:hover{
+      background-color: #ddf3ec;
+      color: #076985;
+    }
+    .reset:active{
+      background-color: #b7e2e2;
+      color: #076985;
+    }
+
+    /* login */
+
+    .submit{
+      font-size: 20px;
+       font-family: 'Courier New', Courier, monospace;
+       font-weight: bold;
+     color: #3b7060;
+      margin-left: 15px;
+      height: 40px;
+      width: 100px;
+      border: 0px;
+      border-radius: 10px;
+      background-color: #cdece3;
+     box-shadow: inset 3px 4px 5px rgba(158, 152, 152, 0.5);
+    cursor: pointer;
+   }
+
+   .submit:hover{
+     background-color: #ddf3ec;
+     color: #076985;
+   }
+   .submit:active{
+     background-color: #b7e2e2;
+     color: #076985;
+   }
+   .congt-new{
+    text-decoration: none;
+    color: #3b7060;
+  }
+  

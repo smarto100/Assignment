@@ -1,0 +1,437 @@
+body{
+  background-color: #dfdddf;
+  margin-bottom: 200px;
+} 
+
+.reg-form{
+  margin: 60px 0px 0px 35%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: #dfdddf;
+  text-shadow: 0 -1px #767676, 0 -2px #262626, 0 0 8px rgb(8, 37, 78);
+}
+.regisration-man{
+  margin: 20px 0px 0px 40%;
+  height: 200px;
+}
+.image-bg{
+  margin: 20px 0px 0px 17%;
+  background-color: rgb(232, 244, 255);
+  background-image: url('../img/background-image.png');
+  height: 42em;
+  width: 63%;
+  border: 0px;
+  border-radius: 40px;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+}
+.welcome{
+  margin: 10px 0px 0px 24%;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  font-weight: bold;
+}
+.acct{
+  margin: 0px;
+  padding: 20px 0px 0px 27em;
+  font-size: 17px;
+  color: #194437;
+}
+.log{
+  text-decoration: none;
+  font-family: serif;
+  padding-left: 5px;
+  color: #06815c;
+  font-weight: bold;
+  margin: 0;
+}
+/* fisrt name and last name */
+
+.left-side, .right-side{
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 0px;
+}
+.fname, .lname{
+ display: block;
+ font-size: 20px;
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: bold;
+ color: #2a464e;
+ padding-bottom: 10px;
+ padding-top: 30px;
+}
+.fname-txt::placeholder{
+color: #619c79;
+font-family: 'Courier New', Courier, monospace;
+font-size: 16px;
+
+}
+.user{
+  position: absolute;
+  height: 20px;
+  top: 487px;
+  left: 280px;
+  opacity: 0.4;
+  z-index: 10px;
+}
+ .fname-txt{
+  position: relative;
+  height:35px;
+  width: 300px;
+  border: 0px;
+  background-color: #a5dfcd;
+  color: #000000;
+  font-size: 15px;
+  padding-left: 40px;
+  border-radius: 10px;
+  box-shadow: inset 1px 2px 4px rgba(110, 108, 108, 0.5);
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+}
+.fname-txt:hover{
+background-color: #cfe4dc;
+}
+.lname-txt::placeholder{
+  color: #619c79;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  }
+  .user-one{
+    position: absolute;
+    height: 20px;
+    top: 487px;
+    left: 665px;
+    opacity: 0.4;
+    z-index: 10px;
+  }
+.lname-txt{
+  position: relative;
+  height:35px;
+  width: 300px;
+  border: 0px;
+  background-color: #a5dfcd;
+  color: #000000;
+  font-size: 15px;
+  padding-left: 40px;
+  border-radius: 10px;
+  box-shadow: inset 1px 2px 4px rgba(110, 108, 108, 0.5);
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+}
+.lname-txt:hover{
+  background-color: #dfdddf;
+}
+
+/* end here */
+
+ .email,
+.email-txt, .gender, .select, .dob,
+.dob-txt{
+  display: block;
+  margin-left: 40px;
+}
+
+/* Phone number and Email */
+
+.left-side-one, .right-side-two{
+  display: inline-block;
+}
+.phone-num, .phone-num-tel{
+  display: block;
+  margin-left: 40px;
+}
+.phone-num, .email{
+  display: block;
+ font-size: 20px;
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: bold;
+ color: #2a464e;
+ padding-bottom: 10px;
+ padding-top: 30px;
+}
+
+.phone-num-tel::placeholder{
+  color: #619c79;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  }
+  .phone-icon{
+    position: absolute;
+    height: 20px;
+    top: 587px;
+    left: 280px;
+    opacity: 0.4;
+    z-index: 10px;
+  }
+.phone-num-tel {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  height:35px;
+  width: 300px;
+  border: 0px;
+  background-color: #c6e6dc;
+  color: #000000;
+  font-size: 15px;
+  padding-left: 40px;
+  border-radius: 10px;
+  box-shadow: inset 1px 2px 4px rgba(110, 108, 108, 0.5);
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+.phone-num-tel:hover{
+  background-color: #eff3f2;
+}
+.email-txt::placeholder{
+  color: #619c79;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  
+  }
+  .email-box{
+    position: absolute;
+    height: 22px;
+    top: 587px;
+    left: 665px;
+    opacity: 0.6;
+    z-index: 10px;
+  }
+.email-txt{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  height:35px;
+  width: 300px;
+  border: 0px;
+  background-color: #c6e6dc;
+  color: #000000;
+  font-size: 15px;
+  padding-left: 40px;
+  border-radius: 10px;
+  box-shadow: inset 1px 2px 4px rgba(110, 108, 108, 0.5);
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+}
+.email-txt:hover{
+  background-color: #eff3f2;
+}
+
+/* gender and select */
+
+.gender, .select{
+  display: block;
+  margin-left: 40px;
+}
+.gender-icon{
+  position: absolute;
+    height: 20px;
+    top: 787px;
+    left: 283px;
+    opacity: 0.4;
+    z-index: 10px;
+}
+.select{
+  margin-top:10px;
+  margin-left: 40px;
+  padding-left: 45px;
+  height: 35px;
+  width: 340px;
+  border: 0px;
+  border-radius: 10px;
+  background-color: #ddf3ec;
+  color: #000000;
+  font-family: serif;
+  font-size: 20px;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+}
+.select:hover{
+  background-color: #eff3f2;
+}
+.gender{
+  font-size: 20px;
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: bold;
+ color: #2a464e;
+ margin-top: 30px;
+}
+
+/* Date of Birth */
+
+.left-side-three, .right-side-four{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.dob, .dob-txt{
+  display: block;
+}
+
+.dob{
+  font-size: 20px;
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: bold;
+ color: #2a464e;
+ margin-top: 30px;
+ padding-left: 10px;
+}
+
+.dob-txt{
+  margin-left:45px;
+  margin-top:10px;
+  height: 35px;
+  width: 320px;
+  border: 0px;
+  border-radius: 5px;
+  background-color: #ddf3ec;
+  color: #000000;
+  font-family: serif;
+  padding-left: 20px;
+  font-size: 20px;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+}
+.dob-txt:hover{
+  background-color: #eff3f2;
+}
+/* password  */
+
+.left-side-password, .right-side-password{
+  display: inline-block;
+  margin-left: 40px;
+}
+.password, .con-pass{
+  display: block;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: #2a464e;
+  padding-bottom: 10px;
+  padding-top: 30px;
+ }
+ .pass-txt::placeholder{
+  color: #619c79;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  }
+  .user-pass{
+    position: absolute;
+    height: 20px;
+    top: 687px;
+    left: 280px;
+    opacity: 0.4;
+    z-index: 10px;
+  }
+   .pass-txt{
+    position: relative;
+    height:35px;
+    width: 300px;
+    border: 0px;
+    background-color: #a5dfcd;
+    color: #000000;
+    font-size: 15px;
+    padding-left: 40px;
+    border-radius: 10px;
+    box-shadow: inset 1px 2px 4px rgba(110, 108, 108, 0.5);
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+  }
+  .pass-txt:hover{
+  background-color: #cfe4dc;
+  }
+  /* Confrim password  */
+
+  .con-pass-txt::placeholder{
+    color: #619c79;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    }
+    .user-con-pass{
+      position: absolute;
+      height: 20px;
+      top: 687px;
+      left: 665px;
+      opacity: 0.4;
+      z-index: 10px;
+    }
+     .con-pass-txt{
+      position: relative;
+      height:35px;
+      width: 300px;
+      border: 0px;
+      background-color: #a5dfcd;
+      color: #000000;
+      font-size: 15px;
+      padding-left: 40px;
+      border-radius: 10px;
+      box-shadow: inset 1px 2px 4px rgba(110, 108, 108, 0.5);
+      box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+    }
+    .con-pass-txt:hover{
+    background-color: #cfe4dc;
+    }
+
+/* color */
+
+.color{
+  display: block;
+  font-size: 18px;
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: bold;
+ color: #2a464e;
+ margin-top: 30px;
+ margin-left: 220px;
+}
+
+.color-txt{
+  margin-left: 250px;
+  margin-top: 10px;
+  width: 200px;
+  border: 0px;
+  border-radius: 5px;
+  background-color: #c6e2da;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+}
+.color-txt:hover{
+  background-color: #eff3f2;
+}
+
+.submit{
+  display: block;
+  font-size: 20px;
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: bold;
+ color: #1b352d;
+  margin-left: 160px;
+  margin-top: 25px;
+  height: 50px;
+  width: 400px;
+  border: 0px;
+  border-radius: 10px;
+  background-color: #cdece3;
+  box-shadow: inset 3px 4px 5px rgba(158, 152, 152, 0.5);
+  cursor: pointer;
+}
+
+.submit:hover{
+  background-color: #ddf3ec;
+  color: #076985;
+}
+.submit:active{
+  background-color: #b7e2e2;
+  color: #076985;
+}
+
+.checkbox{
+ margin-left: 60px;
+ margin-top: 20px;
+}
+
+.checkbox-txt{
+  font-size: 14px;
+ font-family: 'Courier New', Courier, monospace;
+ color: #06815c;
+}
+.reg{
+  color: #06815c;
+  text-decoration: none;
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+  color: #1b352d;
+}
