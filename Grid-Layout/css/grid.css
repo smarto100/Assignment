@@ -1,0 +1,95 @@
+body{
+  background-color: hsl(0, 0%, 95%);
+
+}
+/*
+.container-grid{
+  place-items: center;
+  margin: 5% 0px 0px 25%;
+  background-color: rgb(148, 190, 206);
+  width: 100vh;
+  height: 90vh;
+  border-radius: 15px;
+}
+*/
+.design{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  padding-left: 400px;
+  padding-top: 20px;
+  color: rgb(34, 31, 31);
+}
+
+
+
+.grid-container{
+   display: grid;
+  grid-template-areas: 
+  'header header header left left'
+  'menu menu right right right'
+  'menu menu footer footer footer'; 
+  gap: 10px;
+  margin: auto;
+  width: 85vh;
+ 
+}
+.grid-container div{
+  padding: 2em;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.layout-1{
+  background-color:hsl(0, 77%, 58%);
+  grid-area: header;
+  height: 70px;
+  color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+}
+.layout-1:hover{
+  background-color: rgb(97, 52, 100);
+}
+.layout-2{
+  background-color: hsl(36, 88%, 56%);
+  grid-area: left;
+  height: 70px;
+  color: #ebebeb;
+  font-family: 'Roboto', sans-serif;
+}
+.layout-2:hover{
+  background-color: rgb(51, 101, 114);
+}
+.layout-3{
+  background-color: #099e11;
+  grid-area: menu;
+  height: 210px;
+  color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+}
+.layout-3:hover{
+  background-color: rgb(47, 180, 102);
+}
+.layout-4{
+  background-color: #0781a7;
+  grid-area: right;
+  height: 30px;
+  color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+}
+.layout-4:hover{
+  background-color: rgb(108, 69, 153);
+}
+.layout-5{
+  background-color: #0781a7;
+  grid-area: footer;
+  height: 70px;
+  color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+}
+.layout-5:hover{
+  background-color: rgb(80, 70, 177);
+}
+
+
+
